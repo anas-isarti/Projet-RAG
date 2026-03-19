@@ -129,7 +129,7 @@ chatbot-rag/
 ├── RAG_upload.py       ← fichier principal, contient tout le code
 ├── README.md           ← ce fichier
 ├── chroma_db_data/     ← base vectorielle (créée automatiquement)
-└── data/               ← dossier de données (créé automatiquement)
+
 ```
 
 ---

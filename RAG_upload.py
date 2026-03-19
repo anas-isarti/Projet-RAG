@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 
-os.environ["MISTRAL_API_KEY"] = ""
+os.environ["MISTRAL_API_KEY"] = "mets_ta_cle_api_mistral_ici"
 DOSSIER_BDD = "chroma_db_data"
 
 # ============================================
@@ -35,8 +35,7 @@ def load_vector_store():
 
 # ============================================
 #   FONCTION D'INDEXATION
-#   c'est le contenu de l'ancien ingest.py
-#   mais appelé directement depuis l'interface
+
 # ============================================
 
 def indexer_pdf(pdf_bytes, pdf_name):

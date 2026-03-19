@@ -198,4 +198,4 @@ rm -rf chroma_db_data
 
 ## Auteur
 
-Projet réalisé dans le cadre d'un projet académique.
+ISARTI Anas

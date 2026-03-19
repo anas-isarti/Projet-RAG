@@ -99,13 +99,13 @@ if not os.path.exists(DOSSIER_BDD):
 
 vector_store = load_vector_store()
 
-# le retriever va chercher les 3 morceaux les plus proches de la question
+# le retriever va chercher les 10 morceaux les plus proches de la question
 retriever = vector_store.as_retriever(
     search_type="similarity",
     search_kwargs={"k": 10}
 )
 
-# meme LLM et meme prompt que dans l'ancien interface_RAG.py
+# LLm et prompt
 llm = ChatMistralAI(model="mistral-small-latest", temperature=0)
 
 prompt_template = ChatPromptTemplate.from_template("""

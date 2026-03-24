@@ -1,6 +1,6 @@
 # Chatbot RAG — Question/Réponse sur documents PDF
 
-Système de question/réponse intelligent basé sur la technologie RAG (Retrieval Augmented Generation). Permet d'uploader n'importe quel document PDF et de poser des questions en langage naturel dessus. Le système répond en citant précisément ses sources (numéro de page).
+Système de question/réponse intelligent basé sur la technologie RAG (Retrieval Augmented Generation). Permet d'uploader n'importe quel document PDF ( contenue textuel seulement) et de poser des questions en langage naturel dessus. Le système répond en citant précisément ses sources (numéro de page).
 
 ---
 

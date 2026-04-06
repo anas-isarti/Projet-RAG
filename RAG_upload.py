@@ -20,7 +20,7 @@ DOSSIER_BDD = "chroma_db_data"
 
 @st.cache_resource
 def get_embeddings():
-    # meme modele que dans l'ancien ingest.py
+    
     return HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )

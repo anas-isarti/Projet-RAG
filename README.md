@@ -45,12 +45,12 @@ Réponse générée avec citations des sources
 
 | Technologie | Rôle | Pourquoi ce choix |
 |---|---|---|
-| **Streamlit** | Interface web | Prototypage rapide en Python, pas besoin de HTML/CSS |
+| **Streamlit** | Interface web | Prototypage rapide en Python |
 | **LangChain** | Orchestration | Connecte tous les outils, simplifie le pipeline RAG |
 | **PyPDFLoader** | Extraction PDF | Lecture page par page avec conservation des métadonnées |
 | **RecursiveCharacterTextSplitter** | Découpage du texte | Coupe aux endroits logiques (fin de paragraphe, fin de phrase) |
 | **HuggingFace — all-MiniLM-L6-v2** | Embeddings | Modèle léger (90MB), tourne en local, pas de clé API nécessaire |
-| **ChromaDB** | Base vectorielle | 100% local, données qui ne quittent pas le PC, pas d'infrastructure |
+| **ChromaDB** | Base vectorielle | 100% local,  pas d'infrastructure |
 | **Mistral AI** | Génération de réponse | Modèle performant, entreprise française, bon rapport qualité/coût |
 
 ---
